@@ -21,6 +21,7 @@ body {
 	font-size: 11pt;
 	color: #9F9;
 	background: #000;
+	border: 1px #fefefe dashed;
 }
 
 /* Glow */
