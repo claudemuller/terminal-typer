@@ -1,0 +1,44 @@
+body {
+	background: #000;
+}
+
+:root {
+	--background: #031e11;
+	--size: 1.5;
+}
+
+.terminal-window {
+	top: 10.5rem;
+	width: 854px;
+	height: 284px;
+}
+
+.terminal-window section.terminal {
+	top: 1.875rem;
+	bottom: 0;
+	padding: 50px;
+	width: 100%;
+	font-size: 11pt;
+	color: #9F9;
+	background: #000;
+}
+
+/* Glow */
+.terminal {
+	text-shadow: 0 0.2rem 1rem #0f0;
+}
+
+@media only screen and (max-width: 600px) {
+	.terminal-window {
+		width: 37.5vmin;
+		height: 22.5vmin;
+		top: 30.5vmin;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.terminal-window section.terminal {
+		font-size: .6875vmin;
+		padding: .625vmin;
+	}
+}
