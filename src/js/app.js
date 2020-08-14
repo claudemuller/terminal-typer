@@ -3,7 +3,7 @@
 		'use strict';
 
 		const typed = new Typed('#prompt', {
-			startDelay: 2000,
+			startDelay: 5000,
 			stringsElement: '#terminal-data',
 			typeSpeed: 50,
 			backDelay: 2000,
